@@ -1,0 +1,46 @@
+.advantages{
+  background: #F6F6F6;
+  padding: 71px 78px;
+  &__title{
+    color: #0D0D0D;
+    line-height: 26px;
+    font-family: "Museo Sans Cyrl 700", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 65px;
+    text-transform: uppercase;
+  }
+  &-wrapper{
+    display: flex;
+    color: #0D0D0D;
+
+    &__pic{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70px;
+      height: 70px;
+      margin-bottom: 38px;
+    }
+    &__title{
+      align-items: center;
+      line-height: 16px;
+      font-size: 18px;
+      font-family: "Museo Sans Cyrl 700", sans-serif;
+      margin-bottom: 26px;
+      text-align: center;
+    }
+    &__subtitle{
+      line-height: 20px;
+      font-size: 14px;
+      text-align: center;
+      align-items: center;
+      font-family: MuseoSansCyrl-300,AdobeInvisFont,MyriadPro-Regular,sans-serif;
+    }
+    &__link{
+      text-transform: uppercase;
+      color: $redColor;
+      font-family: MuseoSansCyrl-300,AdobeInvisFont,MyriadPro-Regular,sans-serif;
+    }
+  }
+}

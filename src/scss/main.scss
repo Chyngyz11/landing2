@@ -1,0 +1,43 @@
+@import "../lib/bootstrap/bootstrap-grid.min.css";
+@import "../font/MuseoSans/stylesheet.css";
+@import "../lib/owl/owl.carousel.min.css";
+@import "../lib/owl/owl.theme.default.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Museo Sans Cyrl 500", sans-serif;
+}
+$redColor:#C70101;
+@media (min-width: 1200px) {
+  .container{
+    max-width: 940px;// перебиваем правило для  container из bootstrap
+  }
+}
+@media  (min-width: 992px){
+  .container{
+    max-width: 940px;//дублируем правило для  container чтоб при уменьшении экрана не увеличивался для  container
+  }
+}
+/*
+@media (min-width: 992px) {
+  .container{
+    max-width: 940px;
+  }
+}
+*/
+
+@import "header";
+@import "home";
+@import "advantages";
+@import "consultation";
+@import "slider";
+@import "catalog";
+@import "feedbacks";
+@import "footer";
+@import "up-arrow";
+@import "overlay";
